@@ -12,7 +12,7 @@ font:
   bold_italic:
     family: Dejavu Sans Mono
     style: Bold Italic
-  size: 11
+  size: 10
 
 # Colors (Hyper)
 colors:
@@ -41,9 +41,6 @@ colors:
     cyan: '#00ffff'
     white: '#FFFFFF'
 
-# Window
-window:
-  decorations: none
 
-# Transparency
-background_opacity: 0.9
+# Set Transparency
+background_opacity: 0.8

@@ -1,0 +1,7 @@
+# Configure Desktop
+nitrogen --restore &
+sh ~/.config/polybar/launch.sh --forest &
+plank &
+tint2 &
+picom -e 1 -m 1 -C --no-fading-openclose -b -i 1 &
+setxkbmap -option ctrl:nocaps
