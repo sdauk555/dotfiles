@@ -29,3 +29,6 @@ colors:
 background_opacity: 0.8
 window:
   decorations: none
+
+font:
+  size: 8
