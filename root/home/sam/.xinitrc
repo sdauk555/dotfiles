@@ -50,6 +50,10 @@ fi
 
 [ -f ~/.xprofile ] && . ~/.xprofile
 
+export _JAVA_AWT_WM_NONREPARENTING=1
+export AWT_TOOLKIT=MToolkit
+wmname LG3D
+
 twm &
 #xclock -geometry 50x50-1+1 &
 #xterm -geometry 80x50+494+51 &
