@@ -31,4 +31,11 @@ window:
   decorations: none
 
 font:
-  size: 8
+  size: 10
+
+  normal:
+    family: Fira Code
+    style: Regular
+  bold:
+    family: Fira Code
+    style: Bold
