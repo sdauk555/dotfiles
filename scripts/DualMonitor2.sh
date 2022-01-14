@@ -4,4 +4,4 @@ xrandr --output eDP1 --off --output DP1 --primary --mode 1920x1080 --pos 0x210 -
 nitrogen --restore &
 sed -i 's/size: 8/size: 10/' ~/.alacritty.yml
 xinput set-prop "SINOWEALTH Game Mouse" "libinput Natural Scrolling Enabled" 0
-betterlockscreen -u ~/Pictures/wallpaper.jpeg
+betterlockscreen -u ~/Pictures/wallpaper.png
