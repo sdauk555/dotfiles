@@ -1,5 +1,7 @@
 #!/bin/bash
 
+pacman -Syu
+
 fwupdmgr get-devices
 fwupdmgr refresh --force
 fwupdmgr get-updates
