@@ -101,4 +101,5 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
 # Aliases
-arch-update="./~/scripts/update_script"
+alias sudo='sudo '
+alias arch-update="~/scripts/update-script"
