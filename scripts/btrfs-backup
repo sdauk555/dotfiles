@@ -3,4 +3,4 @@
 echo "Input date (mm-dd-yy):"
 read date
 btrfs subvolume snapshot -r /home /snapshots/backup_$date
-btrfs send /snapshots/backup_$date | btrfs receive /run/media/sam/Backup
+btrfs send /snapshots/backup_$date | btrfs receive /run/media/sam/backup

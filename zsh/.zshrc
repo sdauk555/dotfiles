@@ -103,3 +103,4 @@ source $ZSH/oh-my-zsh.sh
 # Aliases
 alias sudo='sudo '
 alias arch-update="~/scripts/update-script"
+alias arch-backup="~/scripts/btrfs-backup"
