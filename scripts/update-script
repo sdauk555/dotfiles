@@ -1,6 +1,6 @@
 #!/bin/bash
 
-dnf upgrade
+pacman -Syu
 
 fwupdmgr get-devices
 fwupdmgr refresh --force
