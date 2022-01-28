@@ -100,7 +100,12 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
+#Alias vars
+COUNTRY1="United"
+COUNTRY2="States"
+
 # Aliases
 alias sudo='sudo '
 alias arch-update="~/scripts/update-script"
 alias arch-backup="~/scripts/btrfs-backup"
+alias update-mirrors="reflector --verbose --latest 10 --sort rate --protocol https --country 'United States' --download-timeout 20 --save /etc/pacman.d/mirrorlist"
