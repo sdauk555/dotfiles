@@ -10,7 +10,7 @@ local PR_USER PR_USER_OP PR_PROMPT PR_HOST
 if [[ $UID -ne 0 ]]; then # normal user
   PR_USER='%B%F{blue}%n%f%b'
   PR_USER_OP='%B%F{blue}%#%f%b'
-  PR_PROMPT='%f➤ %f'
+  PR_PROMPT='%f>> %f'
 else # root
   PR_USER='%B%F{red}%n%f%b'
   PR_USER_OP='%B%F{red}%#%f%b'
