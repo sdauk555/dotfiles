@@ -1,6 +1,7 @@
 nitrogen --restore &
 picom -b &
 slstatus &
+dunst &
 xss-lock -- betterlockscreen -l &
 /usr/libexec/polkit-mate-authentication-agent-1 &
 udiskie -aNT &
