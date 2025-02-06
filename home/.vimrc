@@ -6,14 +6,15 @@ Plug 'https://github.com/preservim/nerdtree'
 
 Plug 'https://github.com/tpope/vim-fugitive'
 
+Plug 'https://github.com/neoclide/coc.nvim.git'
+
+Plug 'https://github.com/sheerun/vim-polyglot.git'
+
 call plug#end()
 
 set number
 
 nnoremap <C-n> :NERDTree<CR>
+inoremap <expr> <Tab> pumvisible() ? "\<C-y>" : "\<Tab>"
 
-colorscheme argonaut
-
-set termwinsize=10x0
-
-set splitbelow
+let NERDTreeShowHidden=1
