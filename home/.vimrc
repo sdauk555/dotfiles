@@ -7,6 +7,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'morhetz/gruvbox'
 Plug 'MaskRay/ccls'
 Plug 'jiangmiao/auto-pairs'
+Plug 'Yggdroot/indentLine'
 call plug#end()
 
 syntax enable
@@ -18,3 +19,5 @@ set mouse=a
 inoremap <expr> <Tab> pumvisible() ? "\<C-y>" : "\<Tab>"
 nnoremap <C-n> :NERDTree<CR>
 let NERDTreeShowHidden=1
+let g:indentLine_color_term = 239
+set signcolumn=yes
